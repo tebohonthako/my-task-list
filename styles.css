@@ -18,3 +18,17 @@ body {
   border-radius: 6vh;
   box-shadow: rgb(0, 0, 0, 0.35) 0vh 5vh 15vh;
 }
+.addtobutton {
+  margin-bottom: 1rem;
+}
+.btn {
+  background: #83533f;
+  border: 0.2rem solid #83533f;
+}
+.btn:hover {
+  cursor: grab;
+  transition: all 1ms ease-in-out;
+  background-color: #731451;
+  border: none;
+  border: 0.1rem solid #731451;
+}

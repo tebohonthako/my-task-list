@@ -20,17 +20,41 @@
       <header class="text-center" my-4>
         <h1 class="mb-4">TASK LIST 📝</h1>
         <form class="add text-center my-4">
-          <label>ENTER TASK </label>
+          <label></label>
           <br />
           <input
+            placeholder="Enter task here"
             type="text"
             name="task input"
             id="user-text-input"
             class="form-control m-auto"
           />
+          <br />
+          <!-- ADD TO START + ADD TO LAST BUTTO  -->
+          <span class="addtobutton">
+            <button onclick="addTaskFirst()" class="btn btn-primary">
+              ADD TO START
+            </button>
+          </span>
+          <span class="addtobutton">
+            <button onclick="addTaskLast()" class="btn btn-primary">
+              ADD TO LAST
+            </button>
+          </span>
+
+          <br />
+          <!-- REMOVE FROM START BUTTONS  -->
+
+          <!-- D I S P L A Y    T A S K   TO   U S E R -->
+          <div class="mytask">
+            <ol id="array">
+              <p id="emptytask">EMPTY</p>
+            </ol>
+          </div>
         </form>
       </header>
     </div>
     <!-- <footer><strong class="footer">Coded w/ ❤ by Teboho Nthako</strong></footer> -->
+    <script src="index.js"></script>
   </body>
 </html>
